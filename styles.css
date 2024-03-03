@@ -1,0 +1,127 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 25px 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.456);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    padding: 50px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .stories {
+    text-align: center;
+  }
+  
+  .story {
+    display: inline-block;
+    margin: 0 15px 20px;
+    text-align: bottom;
+    background-color: #bcbcbc;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.456);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+  
+  .story:hover {
+    transform: translateY(-5px);
+  }
+  
+  .story-image img {
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.456);
+    margin-top: 10px;
+  }
+  
+  .story-info {
+    padding: 20px;
+  }
+  
+  .story h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .story p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.456);
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
